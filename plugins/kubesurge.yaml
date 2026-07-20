@@ -8,42 +8,42 @@ spec:
   platforms:
     - bin: kubesurge.exe
       uri: https://github.com/kubesurge/kubesurge/releases/download/v0.1.0-alpha.2/kubesurge_windows_x86_64.zip
-      sha256: 46ee808a4cf5a2103881d705df5f989d35efe4984f32a04a722fc275c100bc48
+      sha256: c1b98cdaeea18bb125b513e68da12efb35e736ff5e616657421e0e39462988cb
       selector:
         matchLabels:
           os: windows
           arch: amd64
     - bin: kubesurge.exe
       uri: https://github.com/kubesurge/kubesurge/releases/download/v0.1.0-alpha.2/kubesurge_windows_arm64.zip
-      sha256: f4d46dda1113e11929aa34866c61e434043bccea494b5975ebea19c4094fc273
+      sha256: 7da62eba5772d6975dae2bd8dc22e3c32ededc2a1c1d823893c84d1552c80686
       selector:
         matchLabels:
           os: windows
           arch: arm64
     - bin: kubesurge
       uri: https://github.com/kubesurge/kubesurge/releases/download/v0.1.0-alpha.2/kubesurge_linux_x86_64.tar.gz
-      sha256: 0889f700890b5fa0c8aee98e209de0104a53bfcfcb2c4444a6ae427bfae0b99d
+      sha256: 15f2bf28976b7219e27a4060b52360765c1fb00c51fd19370468db253c5c90d8
       selector:
         matchLabels:
           os: linux
           arch: amd64
     - bin: kubesurge
       uri: https://github.com/kubesurge/kubesurge/releases/download/v0.1.0-alpha.2/kubesurge_linux_arm64.tar.gz
-      sha256: ccd0236b7d15f3a38be9a84ab3196d1d7e45d8881dc8e927b09e686c5f574b4b
+      sha256: 64b15443b679cd5794f9ab0c39396c1c67cc56eb502c9ac8251e984cc81ccded
       selector:
         matchLabels:
           os: linux
           arch: arm64
     - bin: kubesurge
       uri: https://github.com/kubesurge/kubesurge/releases/download/v0.1.0-alpha.2/kubesurge_darwin_x86_64.tar.gz
-      sha256: 9cff52a2c75803ff70d4a63ff4890178b8502db9c38045a7a1505cdb295921b2
+      sha256: 93c053c64b886543506f9fe1516ff2e99e1e32b8ccc0d7fe6a35bb3ee9f1afe8
       selector:
         matchLabels:
           os: darwin
           arch: amd64
     - bin: kubesurge
       uri: https://github.com/kubesurge/kubesurge/releases/download/v0.1.0-alpha.2/kubesurge_darwin_arm64.tar.gz
-      sha256: eb8f9296ea36b5058abc6117bb034a91a9f1b3b274d64896ce1b97d5ec5922e7
+      sha256: cbcaf54975d598473d3429325eb70e8f7f4a729a70ae0c89579f02f5c1c15970
       selector:
         matchLabels:
           os: darwin
