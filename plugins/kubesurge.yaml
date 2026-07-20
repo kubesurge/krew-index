@@ -8,42 +8,42 @@ spec:
   platforms:
     - bin: kubesurge.exe
       uri: https://github.com/kubesurge/kubesurge/releases/download/v0.1.0/kubesurge_windows_x86_64.zip
-      sha256: 7c4b675757825f3c78e706af1677b0979020b112f32dc5e515a6f16ac87ecba4
+      sha256: b19fbad8e71994e769fa379e1b46be6991f1130eb04024685076682f5cc87f52
       selector:
         matchLabels:
           os: windows
           arch: amd64
     - bin: kubesurge.exe
       uri: https://github.com/kubesurge/kubesurge/releases/download/v0.1.0/kubesurge_windows_arm64.zip
-      sha256: 0c2d7fc79d0e5248ee6e31512281bff0e318d60f1bc908fe219593cc86f9c9ec
+      sha256: 56e89b1c03be186383027ad44ab4db21421f6614e42bc350e0cd6418db68a6d7
       selector:
         matchLabels:
           os: windows
           arch: arm64
     - bin: kubesurge
       uri: https://github.com/kubesurge/kubesurge/releases/download/v0.1.0/kubesurge_linux_x86_64.tar.gz
-      sha256: c78f4d7a76dd522411f569b485db9e89ed3167b8a2c8c06e08edd96a7fce83c9
+      sha256: 3025a36a5dfb4c772cc51c43e08a9bc0379f61290271b527be7d586b5abe8341
       selector:
         matchLabels:
           os: linux
           arch: amd64
     - bin: kubesurge
       uri: https://github.com/kubesurge/kubesurge/releases/download/v0.1.0/kubesurge_linux_arm64.tar.gz
-      sha256: f27a8e30024c12768f14f9fffba8f78000e522c8518e87e9fd20084325174b11
+      sha256: ea72573cc8ac63160c5e30f6ca05618f27f74f018f1e003ec50f37458cd2952a
       selector:
         matchLabels:
           os: linux
           arch: arm64
     - bin: kubesurge
       uri: https://github.com/kubesurge/kubesurge/releases/download/v0.1.0/kubesurge_darwin_x86_64.tar.gz
-      sha256: 1f69c709a09c55cd3fe596a7e928a78975c2f4eff15bab571b3f211905cff27e
+      sha256: 14758dd588f594c579a246101371619723ed37ed1a44c4415f93f0c535bb15b3
       selector:
         matchLabels:
           os: darwin
           arch: amd64
     - bin: kubesurge
       uri: https://github.com/kubesurge/kubesurge/releases/download/v0.1.0/kubesurge_darwin_arm64.tar.gz
-      sha256: 938fe19a3b311fa9648a11f115b07248d477080c6da1cd6976cdbb02dfb3b883
+      sha256: 713422c06fc5b08c81e6a550844433ab09a765fc4296ed993dfa7a348adf1ef6
       selector:
         matchLabels:
           os: darwin
