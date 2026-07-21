@@ -4,46 +4,46 @@ kind: Plugin
 metadata:
   name: kubesurge
 spec:
-  version: v0.1.0
+  version: v0.1.1
   platforms:
     - bin: kubesurge.exe
-      uri: https://github.com/kubesurge/kubesurge/releases/download/v0.1.0/kubesurge_windows_x86_64.zip
-      sha256: 784ca44d3c45447ae438671b9cb15baa790391e1a42c090e50f676e1fcd26c4c
+      uri: https://github.com/kubesurge/kubesurge/releases/download/v0.1.1/kubesurge_windows_x86_64.zip
+      sha256: eeff3e468fc8f6200b8113e5b5f1aaf727ce092a6cd34c7def7f207d9a8c8a3b
       selector:
         matchLabels:
           os: windows
           arch: amd64
     - bin: kubesurge.exe
-      uri: https://github.com/kubesurge/kubesurge/releases/download/v0.1.0/kubesurge_windows_arm64.zip
-      sha256: d9ad2e2cecb3a30afedb762eb8edd53b739fc3d518b54e4ff2ba99c4478b07e5
+      uri: https://github.com/kubesurge/kubesurge/releases/download/v0.1.1/kubesurge_windows_arm64.zip
+      sha256: 155ca1dbfb231268b9b7d4f338e6bf76a43029e07d83e56d74d11f3a8e762629
       selector:
         matchLabels:
           os: windows
           arch: arm64
     - bin: kubesurge
-      uri: https://github.com/kubesurge/kubesurge/releases/download/v0.1.0/kubesurge_linux_x86_64.tar.gz
-      sha256: 0bc5aa79c160abd0ea27d0b7aa02c5c6a7c6ffa44b1148b526fe0c268196da7e
+      uri: https://github.com/kubesurge/kubesurge/releases/download/v0.1.1/kubesurge_linux_x86_64.tar.gz
+      sha256: 378c00246415e2dfc33914326e1c43a657d9c1c6765d1c27df6350f40cb0de72
       selector:
         matchLabels:
           os: linux
           arch: amd64
     - bin: kubesurge
-      uri: https://github.com/kubesurge/kubesurge/releases/download/v0.1.0/kubesurge_linux_arm64.tar.gz
-      sha256: 91deeacce20dab9a73bfaeaba792b087c4e66e14cee52d8f6efad35c6eefef56
+      uri: https://github.com/kubesurge/kubesurge/releases/download/v0.1.1/kubesurge_linux_arm64.tar.gz
+      sha256: 9212e529d58ce35fda41da79ad4525c01ba457a151b5539fa40759d075058af6
       selector:
         matchLabels:
           os: linux
           arch: arm64
     - bin: kubesurge
-      uri: https://github.com/kubesurge/kubesurge/releases/download/v0.1.0/kubesurge_darwin_x86_64.tar.gz
-      sha256: bbfe8e7a46b838738c21ffc5930df6b367e3d40f45f3729d623c2e2e1c926367
+      uri: https://github.com/kubesurge/kubesurge/releases/download/v0.1.1/kubesurge_darwin_x86_64.tar.gz
+      sha256: eec73a18061a393a1e286d73027114780c3beb855552eed06c43ce331281c79a
       selector:
         matchLabels:
           os: darwin
           arch: amd64
     - bin: kubesurge
-      uri: https://github.com/kubesurge/kubesurge/releases/download/v0.1.0/kubesurge_darwin_arm64.tar.gz
-      sha256: 5e34d12cb07a39be24f4019c888a28d824bc77b99576e81d112c407ae0ab21db
+      uri: https://github.com/kubesurge/kubesurge/releases/download/v0.1.1/kubesurge_darwin_arm64.tar.gz
+      sha256: f4729567168e3559f66e3be5171476cdd96992206003f1a18ea930c7c8ac0827
       selector:
         matchLabels:
           os: darwin
